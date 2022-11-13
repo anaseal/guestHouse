@@ -1,0 +1,4 @@
+.cards__icon {
+  grid-area: icon;
+  align-self: center;
+}

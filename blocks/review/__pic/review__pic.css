@@ -1,0 +1,10 @@
+.review__pic {
+  width: 2px;
+  height: 20px;
+  background-color: var(--accent);
+}
+@media screen and (max-width: 449.98px) {
+  .review__pic {
+    height: 12px;
+  }
+}

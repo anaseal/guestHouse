@@ -1,0 +1,23 @@
+.review__text {
+  margin-top: 9px;
+  max-height: 100px;
+  overflow-y: scroll;
+}
+/* полоса прокрутки (скроллбар) */
+.review__text::-webkit-scrollbar {
+  width: 2px; 
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* ползунок скроллбара */
+.review__text::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+}
+
+@media screen and (max-width: 549.98px) {
+  .review__text {
+    max-height: 50px;
+    margin-top: 4px;
+  }
+}

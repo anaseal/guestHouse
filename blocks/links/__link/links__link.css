@@ -1,0 +1,20 @@
+.links__link {
+  margin-top: 10px;
+  letter-spacing: 0;
+  text-transform: none;
+  width: max-content;
+}
+.links__link:hover {
+  padding-bottom: 1px;
+  border-bottom: 1px white solid;
+}
+@media screen and (min-width: 768px) and (max-width: 1024.98px) {
+  .links__link {
+    margin-top: 7px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .links__link {
+    margin-top: 5px;
+  }
+}

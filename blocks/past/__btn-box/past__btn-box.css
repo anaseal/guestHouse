@@ -1,0 +1,10 @@
+.past__btn-box {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 136px;
+}
+@media screen and (min-width: 425px) and (max-width: 1024.98px) {
+  .past__btn-box{
+    margin-right: 30px;
+  }
+}

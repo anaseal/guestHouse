@@ -1,0 +1,4 @@
+.together__item {
+  display: flex;
+  gap: 16px;
+}

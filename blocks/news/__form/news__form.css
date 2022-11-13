@@ -1,0 +1,10 @@
+.news__form {
+  position: relative;
+  margin-top: 9px;
+}
+@media screen and (min-width: 500px) and (max-width: 600.98px) {
+  .news__form {
+    display: flex;
+    flex-direction: column;
+  }
+}

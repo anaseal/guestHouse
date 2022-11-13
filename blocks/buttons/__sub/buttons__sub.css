@@ -1,0 +1,9 @@
+.buttons__sub {
+  border: none;
+  cursor: pointer;
+  background-color: var(--brown);
+  width: 133px;
+  height: 52px;
+  border-radius: 6px;
+  color: #ffffff;
+}

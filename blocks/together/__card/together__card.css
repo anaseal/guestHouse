@@ -1,0 +1,31 @@
+.together__card {
+  align-self: flex-end;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 59px 37px;
+  list-style: none;
+  padding: 0;
+  margin: 100px 0 0;
+}
+@media screen and (min-width: 1025px) and (max-width: 1439.98px) {
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024.98px) {
+
+}
+@media screen and (min-width: 499px) and (max-width: 767.98px) {
+.together__card{
+  gap: 20px 10px;
+  margin-top: 0;
+  margin-right: 20px;
+}
+}
+@media screen and (max-width: 499.98px) {
+.together__card{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-right: 10px;
+  gap: 10px 0;
+}
+}

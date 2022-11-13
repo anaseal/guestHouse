@@ -1,0 +1,10 @@
+.perfect__text {
+  margin-top: 14px;
+  width: 554px;
+}
+@media screen and (max-width: 1024.98px) {
+  .perfect__text {
+    margin-top: 10px;
+    width: 75%;
+  }
+}

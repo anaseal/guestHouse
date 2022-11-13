@@ -1,0 +1,8 @@
+.post {
+  display: flex;
+}
+@media screen and (max-width: 499.98px) {
+  .post {
+    flex-direction: column;
+  }
+}

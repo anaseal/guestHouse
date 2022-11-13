@@ -1,0 +1,31 @@
+.together__box {
+  max-width: max-content;
+  margin-right: 105px;
+  margin-left: 136px;
+}
+@media screen and (min-width: 1025px) and (max-width: 1439.98px) {
+  .together__box {
+    margin-right: 90px;
+    margin-left: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024.98px) {
+  .together__box {
+    margin-right: 70px;
+    margin-left: 50px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 767.98px) {
+  .together__box {
+    margin-right: 30px;
+    margin-left: 30px;
+    max-width: 40%;
+  }
+}
+@media screen and (max-width: 499.98px) {
+  .together__box {
+    margin-right: 30px;
+    margin-left: 10px;
+    max-width: 35%;
+  }
+}

@@ -1,0 +1,6 @@
+.arrangements {
+  background-color: var(--back);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,33 @@
+.footer {
+  background-color: var(--brown);
+  padding: 100px 136px 110px;
+  display: grid;
+  grid-template-columns: min-content;
+  justify-content: space-between;
+  grid-template-areas:
+    "pages social email"
+    "logo logo logo";
+}
+@media screen and (min-width: 768px) and (max-width: 1024.98px) {
+  .footer{
+    column-gap: 40px;
+    padding: 70px 70px 90px;
+  }
+  }
+
+@media screen and (min-width: 500px) and (max-width: 767.98px) {
+.footer{
+  padding: 35px 30px 40px;
+  column-gap:30px;
+}
+}
+@media screen and (max-width: 499.98px) {
+.footer{
+  grid-template-areas:
+    "pages social"
+    "email email"
+    "logo logo";
+  padding: 30px 20px 40px;
+  column-gap: 30px;
+}
+}

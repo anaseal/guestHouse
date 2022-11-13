@@ -1,0 +1,25 @@
+.review {
+  max-width: 584px;
+  padding: 33px 60px 33px 31px;
+  background-color: #fff;
+  height: fit-content;
+  flex-shrink: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
+.review:last-child {
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 550px) and (max-width: 767.98px) {
+  .review {
+    max-width: 450px;
+    padding: 25px 40px 20px 20px;
+  }
+}
+@media screen and (max-width: 549.98px) {
+  .review {
+    max-width: 250px;
+    padding: 10px 20px 10px 10px;
+  }
+}

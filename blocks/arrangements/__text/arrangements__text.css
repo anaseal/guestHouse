@@ -1,0 +1,21 @@
+.arrangements__text {
+  margin: 14px 443px 0;
+  text-align: center;
+}
+@media screen and (min-width: 1025px) and (max-width: 1439.98px) {
+  .arrangements__text {
+    margin: 14px 300px 0;}
+}
+@media screen and (min-width: 868px) and (max-width: 1024.98px) {
+  .arrangements__text {
+    margin: 12px 200px 0;}
+}
+@media screen and (min-width: 550px) and (max-width: 867.98px) {
+  .arrangements__text {
+    margin: 10px 100px 0;}
+}
+@media screen and (max-width: 549.98px) {
+  .arrangements__text {
+    margin: 8px 40px 0;
+    ;}
+}

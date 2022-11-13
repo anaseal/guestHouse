@@ -1,0 +1,12 @@
+.news__text {
+  color: #ffffff;
+  max-width: 563px;
+  font-style: normal;
+}
+@media screen and (max-width: 600.98px) {
+  .news__text {
+    font-size: 11px;
+    line-height: 14px;
+    margin-top: 10px;
+  }
+}

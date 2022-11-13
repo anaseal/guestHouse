@@ -1,0 +1,35 @@
+.housing__logo {
+  margin-top: 178px;
+  width: 256px;
+  height: 90px;
+}
+@media screen and (min-width: 1025px) and (max-width: 1439.98px) {
+  .housing__logo {
+    margin-top: 150px;
+    width: 220px;
+    height: 77px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024.98px) {
+  .housing__logo {
+    margin-top: 100px;
+    width: 190px;
+    height: 67px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767.98px) {
+  .housing__logo {
+    margin-top: 50px;
+    width: 155px;
+    height: 54px;
+  }
+}
+@media screen and (max-width: 424.98px) {
+  .housing__logo {
+    margin-top: 30px;
+    width: 90px;
+    height: 32px;
+  }
+}

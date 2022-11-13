@@ -1,0 +1,25 @@
+.news__button {
+  position: absolute;
+  top: 11px;
+  right: 7px;
+  border: none;
+  cursor: pointer;
+  background-color:var(--brown);
+  color: #ffffff;
+  border-radius: 10px;
+  width: 61px;
+  height: 30px;
+}
+@media screen and (min-width: 500px) and (max-width: 600.98px) {
+.news__button{
+  position: static;
+      height: 52px;
+    /* border: 2px solid #faf8f0;; */
+    border-radius: 10px;
+    color:var(--brown);
+    background-color: var(--back);
+    margin-top: 5px;
+    align-self: flex-end;
+    height: 30px;
+}
+}

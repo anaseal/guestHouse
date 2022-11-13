@@ -1,0 +1,10 @@
+.button {
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.button:hover {
+  transform: scale(1.02);
+  transition: ease 0.1s;
+}

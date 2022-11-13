@@ -1,0 +1,8 @@
+.links {
+  grid-area: pages;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  list-style: none;
+  color: #fff;
+  max-width: fit-content;
+}

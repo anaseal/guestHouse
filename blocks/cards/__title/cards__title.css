@@ -1,0 +1,7 @@
+.cards__title {
+  grid-area: title;
+  width: fit-content;
+}
+.cards__title:hover {
+  border-bottom: 1px solid var(--accent);
+}

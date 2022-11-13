@@ -1,0 +1,32 @@
+.body {
+  font-family: "Montserrat", sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1025px) {
+  .body {
+    max-width: 1439px;
+    min-width: 1025px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024.98px) {
+  .body {
+    max-width: 1024px;
+    min-width: 768px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767.98px) {
+  .body {
+    max-width: 767px;
+    min-width: 424px;
+  }
+}
+@media screen and (max-width: 424.98px) {
+  .body {
+    max-width: 424px;
+  }
+}

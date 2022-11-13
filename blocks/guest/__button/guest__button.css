@@ -1,0 +1,26 @@
+.guest__button {
+  margin-top: 41px;
+  margin-bottom: 106px;
+  width: 107px;
+  height: 42px;
+  background-color: var(--brown);
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+@media screen and (min-width: 450px) and (max-width: 800.98px) {
+  .guest__button {
+    margin-top: 35px;
+    margin-bottom: 100px;
+    width: 90px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 449.98px) {
+  .guest__button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 90px;
+    height: 35px;
+  }
+}

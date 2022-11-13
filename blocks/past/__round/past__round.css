@@ -1,0 +1,34 @@
+.past__round {
+  width: 60px;
+  height: 60px;
+  border: 1px solid var(--brown);
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--back);
+  padding: 0;
+  margin: 0;
+}
+.past__round:hover {
+  background-color: var(--accent);
+  transition: ease 2s;
+}
+.past__round:last-child {
+  margin-left: 5px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024.98px) {
+  .past__round {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767.98px) {
+  .past__round {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 424.98px) {
+  .past__round {
+    display: none;
+  }
+}

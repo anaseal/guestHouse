@@ -1,0 +1,10 @@
+.buttons__con {
+  border: none;
+  cursor: pointer;
+  width: 116px;
+  height: 52px;
+  border: 4px solid var(--brown);
+  border-radius: 6px;
+  color: var(--brown);
+  background-color: var(--back);
+}

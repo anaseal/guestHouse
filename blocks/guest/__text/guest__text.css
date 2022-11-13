@@ -1,0 +1,14 @@
+.guest__text {
+  height: max-content;
+  
+}
+@media screen and (max-width: 800px) {
+  .guest__text{
+    font-size: 12px;
+  }
+  }
+@media screen and (max-width: 449.98px) {
+.guest__text{
+  text-indent: 5px;
+}
+}

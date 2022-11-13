@@ -1,0 +1,11 @@
+.social-box {
+  display: flex;
+  margin-top: 20px;
+  gap: 27px;
+}
+@media screen and (max-width: 767.98px) {
+  .social-box {
+    margin-top: 10px;
+    gap: 10px;
+  }
+}

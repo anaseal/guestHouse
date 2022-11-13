@@ -22,7 +22,7 @@
   line-height: 36px;
   margin: 0;
   padding: 0;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
 }
 .font-middle {
@@ -41,4 +41,19 @@
   line-height: 20px;
   font-weight: 400;
   font-style: normal;
+}
+@media screen and (max-width: 524.98px) {
+  .font-big{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .font-little{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .font-middle{
+    font-size: 14px;
+    line-height: 18px;
+
+  }
 }

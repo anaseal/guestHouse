@@ -1,0 +1,33 @@
+.orangepic {
+  background-color: var(--accent);
+  width: 42px;
+  height: 8px;
+  margin-top: 100px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1439.98px) {
+  .orangepic {
+    width: 42px;
+    height: 8px;
+    margin-top: 90px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024.98px) {
+  .orangepic {
+    margin-top: 70px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767.98px) {
+  .orangepic {
+    width: 35px;
+    height: 6.7px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 424.98px) {
+  .orangepic {
+    width: 30px;
+    height: 5.7px;
+    margin-top: 30px;
+  }
+}

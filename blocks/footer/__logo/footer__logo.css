@@ -1,0 +1,29 @@
+.footer__logo {
+  width: 200px;
+  height: 70px;
+  align-self: center;
+}
+@media screen and (min-width: 1025px) and (max-width: 1439.98px) {
+.footer__logo{
+  width: 160px;
+  height: 56px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1024.98px) {
+  .footer__logo{
+    width: 160px;
+    height: 56px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767.98px) {
+  .footer__logo{
+    width: 160px;
+    height: 56px;
+  }
+}
+@media screen and (max-width: 424.98px) {
+  .footer__logo{
+    width: 130px;
+    height: 46px;
+  }
+}

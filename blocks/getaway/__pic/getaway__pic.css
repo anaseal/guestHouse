@@ -1,0 +1,25 @@
+.getaway__pic {
+  margin: 140px 0 0 0;
+  max-width: 100%;
+  max-height: 660px;
+}
+@media screen and (min-width: 1025px) and (max-width: 1439.98px) {
+  .getaway__pic {
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024.98px) {
+  .getaway__pic {
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767.98px) {
+  .getaway__pic {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 424.98px) {
+  .getaway__pic {
+    margin-top: 20px;
+  }
+}

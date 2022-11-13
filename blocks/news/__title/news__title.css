@@ -1,0 +1,11 @@
+.news__title {
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 499.98px) {
+.news__title{
+  margin-top: 20px;
+}
+}

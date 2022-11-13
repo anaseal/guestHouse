@@ -1,0 +1,9 @@
+.cards__text {
+  grid-area: text;
+  max-width: 507px;
+}
+@media screen and (max-width: 1024.98px) {
+  .cards__text {
+    max-width: 90%;
+  }
+}

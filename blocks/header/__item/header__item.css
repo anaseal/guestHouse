@@ -1,0 +1,26 @@
+.header__item {
+  color: #fff;
+  cursor: pointer;
+  transition: .3s;
+  border-bottom: 1px solid transparent;
+}
+
+.header__item:hover {
+  border-color: #fff;
+}
+
+@media screen and (max-width: 767.98px) {
+  .header__item {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #52503b;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease;
+    transform: translateX(0%);
+  }
+  .header__item:hover {
+    color: #e08631;
+    letter-spacing: 5px;
+  }
+}

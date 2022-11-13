@@ -1,0 +1,8 @@
+.past__title {
+  margin-top: 30px;
+}
+@media screen and (max-width: 424.98px) {
+  .past__title{
+    margin-top: 20px;  
+  }
+}

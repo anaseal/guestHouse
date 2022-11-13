@@ -1,0 +1,18 @@
+.footer__social {
+  margin-left: 52px;
+  grid-area: social;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  list-style: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+}
+@media screen and (max-width: 767.98px) {
+.footer__social{
+  margin: 0;
+  justify-self: center;
+  text-align: center;
+}
+}
