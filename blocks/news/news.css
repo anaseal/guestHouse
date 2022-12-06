@@ -1,7 +1,7 @@
 .news {
   grid-area: email;
 }
- @media screen and (min-width: 1025px) and (max-width: 1439.98px) {
+ /* @media screen and (min-width: 1025px) and (max-width: 1439.98px) {
   .news {
     max-width: 400px;
   }
@@ -11,3 +11,8 @@
     max-width: 400px;
   }
 }
+@media screen and (min-width: 500px) and (max-width: 767.98px) {
+  .news {
+    max-width: 300px;
+  }
+} */

@@ -590,20 +590,23 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique.
           </p>
-          <form class="news__form" action="#" novalidate>
+          <form class="news__form form" action="#" novalidate>
             <input
               id="input_email"
               type="email"
               placeholder="Email"
               name="email"
-              class="news__input font-little"
+              autocomplete="on"
+              class="news__input form__input font-little"
               required
             />
-            <span class="news__input-error input_email-error"></span>
+            <span
+              class="form__input-error font-little input_email-error"
+            ></span>
             <button
               type="submit"
               value="submit"
-              class="news__button font-little"
+              class="news__button form__submit font-little"
             >
               Submit
             </button>
@@ -635,24 +638,36 @@
       <div class="popup__container">
         <button type="button" class="popup__close"></button>
         <h3 class="popup__title font-big">leave a request</h3>
-        <form action="#" class="popup__form" novalidate>
-          <input
-            id="input_name"
-            type="text"
-            minlength="2"
-            maxlength="15"
-            placeholder="your name"
-            class="popup__input font-little popup__input_name"
-          />
-          <span class="popup__input-error input_name-error"></span>
-          <input
-            id="input_number"
-            type="number"
-            placeholder="phone number"
-            class="popup__input font-little popup__input_num"
-          />
-          <span class="popup__input-error input_number-error"></span>
-          <button class="popup__save button font-little" type="submit">
+        <form action="#" class="popup__form form" novalidate>
+          <label class="form__set">
+            <input
+              id="input_name"
+              autocomplete="on"
+              type="text"
+              minlength="2"
+              maxlength="15"
+              placeholder="your name"
+              class="popup__input form__input font-little popup__input_name"
+            />
+            <span
+              class="form__input-error font-little input_name-error"
+            ></span> </label
+          ><label class="form__set"
+            ><input
+              id="input_number"
+              autocomplete="on"
+              type="number"
+              placeholder="phone number"
+              class="popup__input font-little form__input popup__input_number"
+            />
+            <span class="form__input-error font-little input_number-error">
+              the phone number is incorrect</span
+            ></label
+          >
+          <button
+            class="popup__save form__submit button font-little"
+            type="submit"
+          >
             send
           </button>
         </form>

@@ -237,7 +237,7 @@
 }
 .popup__save {
   border: 2px solid white;
-  margin: 30px;
+  margin-top: 30px;
   cursor: pointer;
   background-color: var(--brown);
   width: 200px;
@@ -273,7 +273,28 @@
 }
 .popup__input_name {
 }
-.popup__input-error {
+.form__input-error {
+  padding-top: 5px;
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  display: none;
+}
+
+.form__input-error_active {
+  display: block;
+}
+.input_email-error{
+  max-width: 560px;
+  overflow: scroll;
+}
+.form__input_error {
 }
 .popup__input_num {
+}
+.button_inactive {
+  pointer-events: none; 
+}
+.form__set {
+  width: 100%;
 }
